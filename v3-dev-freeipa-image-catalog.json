@@ -1,0 +1,160 @@
+{
+  "images": {
+    "freeipa-images": [
+      {
+        "created": 1611654110,
+        "advertised": true,
+        "date": "2021-01-26",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "asia-east1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "asia-east2": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "asia-northeast1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "asia-south1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "asia-southeast1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "australia-southeast1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "europe-north1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "europe-west1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "europe-west2": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "europe-west3": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "europe-west4": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "northamerica-northeast1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "southamerica-east1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "us-central1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "us-east1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "us-east4": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "us-west1": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz",
+            "us-west2": "cloudera-freeipa-images/freeipa-cdh--2101260941.tar.gz"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "0dad3b5a-a76f-408b-a713-5d0611bdf3ca",
+        "package-versions": {
+          "salt": "3000.5",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
+        }
+      },
+      {
+        "created": 1611654138,
+        "advertised": true,
+        "date": "2021-01-26",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "ap-northeast-1": "ami-091d7b939994d129e",
+            "ap-northeast-2": "ami-0ba44efde335f7a69",
+            "ap-south-1": "ami-066c057bf7c50bc42",
+            "ap-southeast-1": "ami-06b86c1fa7a7b2933",
+            "ap-southeast-2": "ami-0e7a4577f3d870146",
+            "ca-central-1": "ami-078231d9fa2e2cbc9",
+            "eu-central-1": "ami-0b10ceac2d5363455",
+            "eu-north-1": "ami-04bdd6c0d74eeb7ae",
+            "eu-west-1": "ami-03b21040592028413",
+            "eu-west-2": "ami-0a9a286c517c8769c",
+            "eu-west-3": "ami-033157bc05ec63d3f",
+            "sa-east-1": "ami-03b0ca92833ea28c5",
+            "us-east-1": "ami-0d2c468797f7626f4",
+            "us-east-2": "ami-0b2870f0388bd4f56",
+            "us-west-1": "ami-063198991196ab1cb",
+            "us-west-2": "ami-0e887f4c240e6711d"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "495d8289-e200-44d2-876d-05af5c0a498a",
+        "package-versions": {
+          "salt": "3000.5",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
+        }
+      },
+      {
+        "created": 1611654123,
+        "advertised": true,
+        "date": "2021-01-26",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "Australia Central": "https://cldraustraliacentral.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Australia East": "https://cldraustraliaeast.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Australia Southeast": "https://cldraustralisoutheast.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Brazil South": "https://cldrbrazilsouth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Canada Central": "https://cldrcanadacentral.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Canada East": "https://cldrcanadaeast.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Central India": "https://cldrcentralindia.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Central US": "https://cldrcentralus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "East Asia": "https://cldreastasia.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "East US": "https://cldreastus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "East US 2": "https://cldreastus2.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "France Central": "https://cldrfrancecentral.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Germany North": "https://cldrgermanynorth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Germany West Central": "https://cldrgermanywestcentral.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Japan East": "https://cldrjapaneast.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Japan West": "https://cldrjapanwest.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Korea Central": "https://cldrkoreacentral.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Korea South": "https://cldrkoreasouth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "North Central US": "https://cldrnorthcentralus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "North Europe": "https://cldrnortheurope.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Norway East": "https://cldrnorwayeast.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Norway West": "https://cldrnorwaywest.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "South Africa North": "https://cldrsouthafricanorth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "South Africa West": "https://cldrsouthafricawest.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "South Central US": "https://cldrsouthcentralus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "South East Asia": "https://cldrsoutheastasia.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "South India": "https://cldrsouthindia.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "Switzerland North": "https://cldrswitzerlandnorth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "UAE North": "https://cldruaenorth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "UK South": "https://cldruksouth.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "UK West": "https://cldrukwest.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "West Central US": "https://cldrwestcentralus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "West Europe": "https://cldrwesteurope.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "West India": "https://cldrwestindia.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "West US": "https://cldrwestus.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd",
+            "West US 2": "https://cldrwestus2.blob.core.windows.net/images/freeipa-cdh--2101260942.vhd"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "d24f8cd1-25ab-466b-9c58-83e258cddb7e",
+        "package-versions": {
+          "salt": "3000.5",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
+        }
+      },
+      {
+        "created": 1611796410,
+        "advertised": true,
+        "date": "2021-01-28",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "ap-northeast-1": "ami-0bfada63ec1cf1c29",
+            "ap-northeast-2": "ami-0788ad73b7b324571",
+            "ap-south-1": "ami-0a650e73d39e028cc",
+            "ap-southeast-1": "ami-0cf9072cc67ae4c78",
+            "ap-southeast-2": "ami-080d5d78d9ba71aa0",
+            "ca-central-1": "ami-06cae2ccd7512e00f",
+            "eu-central-1": "ami-0bdc2e95ebcd4be11",
+            "eu-north-1": "ami-0970d68f6ac756eae",
+            "eu-west-1": "ami-0b95cfbf282877a19",
+            "eu-west-2": "ami-0f2e895843c02ec96",
+            "eu-west-3": "ami-0be720ae53dc50a23",
+            "sa-east-1": "ami-03b0d4afd9480b452",
+            "us-east-1": "ami-0da645465375a7b03",
+            "us-east-2": "ami-0a750bc4fd5c84059",
+            "us-west-1": "ami-0d11189b316c2b9e1",
+            "us-west-2": "ami-09ae0ca20cfc6808e"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "d7f565e1-c7c0-40ea-b2f2-9daac1107847",
+        "package-versions": {
+          "salt": "3000.5",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
+        }
+      }
+    ]
+  }
+}
