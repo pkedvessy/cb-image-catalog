@@ -2,34 +2,34 @@
   "images": {
     "freeipa-images": [
       {
-        "created": 1616143495,
-        "date": "2021-03-19",
+        "created": 1615566254,
+        "date": "2021-03-12",
         "description": "Official Cloudbreak image",
         "images": {
           "aws": {
-            "af-south-1": "ami-077dcf629352ef49f",
-            "ap-northeast-1": "ami-0274c490b1e6976d5",
-            "ap-northeast-2": "ami-03382195e2187a2b1",
-            "ap-south-1": "ami-0f800f4106e592524",
-            "ap-southeast-1": "ami-06598cbcf8569eb69",
-            "ap-southeast-2": "ami-09d699848be8bdce0",
-            "ca-central-1": "ami-061e7a9366c295026",
-            "eu-central-1": "ami-09b8bc611d49e1a92",
-            "eu-north-1": "ami-048aa8cf7081842f2",
-            "eu-south-1": "ami-0af34a9558489bc8f",
-            "eu-west-1": "ami-01aed6624903c1e6e",
-            "eu-west-2": "ami-0ddff4fd2d93eb448",
-            "eu-west-3": "ami-0db33d09c30699541",
-            "sa-east-1": "ami-07f419ccac9cbb41b",
-            "us-east-1": "ami-0b9f8e6e48fe2c2da",
-            "us-east-2": "ami-0087992c482c20c69",
-            "us-west-1": "ami-08aa044e21645bbdc",
-            "us-west-2": "ami-0292649f050f1b8f1"
+            "af-south-1": "ami-0d0920e329afdf157",
+            "ap-northeast-1": "ami-0bf7c9a9705d517c0",
+            "ap-northeast-2": "ami-06036d32d14da75d7",
+            "ap-south-1": "ami-0d93039a0d28cc4a5",
+            "ap-southeast-1": "ami-03cc81e7abfba1f47",
+            "ap-southeast-2": "ami-0f8b3c72cdd79ec80",
+            "ca-central-1": "ami-0a59964dec8dad8fc",
+            "eu-central-1": "ami-0b80604a5961b8a05",
+            "eu-north-1": "ami-04c552a2de96be80e",
+            "eu-south-1": "ami-0e70ad73124a609e6",
+            "eu-west-1": "ami-064b593d494ad1d86",
+            "eu-west-2": "ami-0330b6284bd9ddeef",
+            "eu-west-3": "ami-0b5f97100cb13cdaf",
+            "sa-east-1": "ami-0577866f5c4181d8c",
+            "us-east-1": "ami-003be8e1d9b083fc5",
+            "us-east-2": "ami-0cb47e5297166b570",
+            "us-west-1": "ami-072b0720360d7e024",
+            "us-west-2": "ami-026e5bbad7145afb0"
           }
         },
         "os": "centos7",
         "os_type": "redhat7",
-        "uuid": "custom-freeipa-image",
+        "uuid": "customized_freeipa_image_for_testing",
         "package-versions": {
           "salt": "3000.8",
           "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
@@ -41,11 +41,11 @@
     "freeipa": [
       {
         "images": [
-          "custom-freeipa-image"
+          "customized_freeipa_image_for_testing"
         ],
         "defaults": [],
         "versions": [
-          "2.35.0-b50"
+          "2.41.0-b118"
         ]
       }
     ]
