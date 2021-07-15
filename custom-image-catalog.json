@@ -1,0 +1,220 @@
+{
+  "images": {
+    "base-images": [
+    ],
+    "cdh-images": [
+      {
+        "created": 1623241045,
+        "date": "2021-06-09",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "af-south-1": "ami-0aecc259b6aeb3dd1",
+            "ap-northeast-1": "ami-0374e41bc7904220f",
+            "ap-northeast-2": "ami-09737ac905a14340a",
+            "ap-south-1": "ami-019c93ed410ead1a8",
+            "ap-southeast-1": "ami-0295c1cf2c98aeb94",
+            "ap-southeast-2": "ami-031cd261d00f222d9",
+            "ca-central-1": "ami-07f052bbcc7e3f506",
+            "eu-central-1": "ami-0f8773ddb366b69fb",
+            "eu-north-1": "ami-05274b05bed28ec83",
+            "eu-south-1": "ami-06b70309689456d48",
+            "eu-west-1": "ami-00bf7513fab423bb9",
+            "eu-west-2": "ami-0d92a29486e9abe24",
+            "eu-west-3": "ami-01117feccc8cca03a",
+            "sa-east-1": "ami-0a13b7354c2445861",
+            "us-east-1": "ami-00cf2c2bdfc0380fb",
+            "us-east-2": "ami-0a5e22f6be1c93d38",
+            "us-west-1": "ami-06820b99a85ed41e5",
+            "us-west-2": "ami-0354e72bafc5b3788"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "c48a2f3c-f4f6-4973-8c06-b6e40b361506",
+        "package-versions": {
+          "cdh-build-number": "14376970",
+          "cfm": "2.2.1.0-56",
+          "cfm_gbn": "13885769",
+          "cloudbreak_images": "db205e8",
+          "cm": "7.4.2",
+          "cm-build-number": "14450219",
+          "composite_gbn": "14462184",
+          "csa": "1.3.0.0-5",
+          "csa_gbn": "13118633",
+          "profiler": "2.0.10.0-118",
+          "profiler_gbn": "13995067",
+          "salt": "3000.8",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43",
+          "spark3": "3.1.7280.2-11",
+          "spark3_gbn": "13959573",
+          "stack": "7.2.10"
+        },
+        "stack-details": {
+          "repo": {
+            "stack": {
+              "redhat7": "https://10.209.164.68/p/cdp-public/7.2.10.0/parcels/",
+              "repoid": "CDH-7.2.10",
+              "repository-version": "7.2.10-1.cdh7.2.10.p0.14376970"
+            },
+            "util": null
+          },
+          "version": "7.2.10",
+          "build-number": "14376970"
+        },
+        "repo": {
+          "redhat7": "https://10.209.164.68/p/cm-public/7.4.2/redhat7/yum/"
+        },
+        "version": "7.2.10",
+        "build-number": "14450219",
+        "pre_warm_parcels": [
+          [
+            "SPARK3-3.1.1.3.1.7280.2-11-1.p0.13959573-el7.parcel",
+            "https://archive.cloudera.com/p/spark3/3.1.7280.2/parcels/"
+          ],
+          [
+            "FLINK-1.12-csadh1.3.0.0-cdh7.2.10.0-107-13118633-el7.parcel",
+            "https://archive.cloudera.com/p/csa-dh/1.3.0.0/parcels/"
+          ],
+          [
+            "PROFILER_MANAGER-2.0.10.2.0.10.0-118-el7.parcel",
+            "https://archive.cloudera.com/p/DSS/2.0.10.0/redhat7/yum/tars/dataplane_profilers"
+          ],
+          [
+            "PROFILER_SCHEDULER-2.0.10.2.0.10.0-118-el7.parcel",
+            "https://archive.cloudera.com/p/DSS/2.0.10.0/redhat7/yum/tars/dataplane_profilers"
+          ],
+          [
+            "CFM-2.2.1.0-el7.parcel",
+            "https://archive.cloudera.com/p/cfm2/2.2.1.0/redhat7/yum/tars/parcel"
+          ]
+        ],
+        "pre_warm_csd": [
+          "https://archive.cloudera.com/p/spark3/3.1.7280.2/csd/LIVY_FOR_SPARK3-0.6.0.3.1.7280.2-11.jar",
+          "https://archive.cloudera.com/p/spark3/3.1.7280.2/csd/SPARK3_ON_YARN-3.1.1.3.1.7280.2-11.jar",
+          "https://archive.cloudera.com/p/csa-dh/1.3.0.0/csd/FLINK-1.12-csadh1.3.0.0-cdh7.2.10.0-107-13118633.jar",
+          "https://archive.cloudera.com/p/csa-dh/1.3.0.0/csd/SQL_STREAM_BUILDER-1.12-csadh1.3.0.0-cdh7.2.10.0-107-13118633.jar",
+          "https://archive.cloudera.com/p/DSS/2.0.10.0/redhat7/yum/tars/dataplane_profilers/PROFILER_MANAGER-2.0.10.2.0.10.0-118.jar",
+          "https://archive.cloudera.com/p/DSS/2.0.10.0/redhat7/yum/tars/dataplane_profilers/PROFILER_SCHEDULER-2.0.10.2.0.10.0-118.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.1.0/redhat7/yum/tars/parcel/NIFI-1.13.2.2.2.1.0-56.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.1.0/redhat7/yum/tars/parcel/NIFIREGISTRY-0.8.0.2.2.1.0-56.jar"
+        ]
+      },
+      {
+        "created": 1623715355,
+        "date": "2021-06-15",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "af-south-1": "ami-0028550db0faafc51",
+            "ap-northeast-1": "ami-0ce864e14201fe5b3",
+            "ap-northeast-2": "ami-05519fab8261b835f",
+            "ap-south-1": "ami-00eec346007dc0624",
+            "ap-southeast-1": "ami-0a9b0d2683c98d716",
+            "ap-southeast-2": "ami-098d9b6bf7ceabafa",
+            "ca-central-1": "ami-066a29b080f9d7038",
+            "eu-central-1": "ami-06b1608477edde4af",
+            "eu-north-1": "ami-0d600e5685ecb5d72",
+            "eu-south-1": "ami-01d365ec16d9beab3",
+            "eu-west-1": "ami-087b33849ad89970d",
+            "eu-west-2": "ami-0b736a7d0eb31ff57",
+            "eu-west-3": "ami-0f17f80eb12461073",
+            "sa-east-1": "ami-0a7685bd9818b5ca4",
+            "us-east-1": "ami-03bc0e3ee19e16fc6",
+            "us-east-2": "ami-0d76c807db363049e",
+            "us-west-1": "ami-0d09e1e06d82c86d6",
+            "us-west-2": "ami-05286da3069481e6f"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "84ee4b82-5ad7-4bf2-9a0d-f873da208a10",
+        "package-versions": {
+          "cdh-build-number": "14638047",
+          "cfm": "2.0.8.0-36",
+          "cfm_gbn": "10539177",
+          "cloudbreak_images": "e4ce423",
+          "cm": "7.4.0",
+          "cm-build-number": "11637958",
+          "composite_gbn": "14642385",
+          "csa": "1.2.2.0-9",
+          "csa_gbn": "11539189",
+          "profiler": "2.0.8.0-224",
+          "profiler_gbn": "10890449",
+          "salt": "3000.8",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43",
+          "spark3": "3.0.7110.1-2",
+          "spark3_gbn": "10293548",
+          "stack": "7.2.8"
+        },
+        "stack-details": {
+          "repo": {
+            "stack": {
+              "redhat7": "https://archive.cloudera.com/p/cdp-public/7.2.8.2/parcels/",
+              "repoid": "CDH-7.2.8",
+              "repository-version": "7.2.8-1.cdh7.2.8.p2.14638047"
+            },
+            "util": null
+          },
+          "version": "7.2.8",
+          "build-number": "14638047"
+        },
+        "repo": {
+          "redhat7": "https://archive.cloudera.com/p/cm-public/7.4.0/redhat7/yum/"
+        },
+        "version": "7.2.8",
+        "build-number": "11637958",
+        "pre_warm_parcels": [
+          [
+            "SPARK3-3.0.1.3.0.7110.1-2-1.p0.10293548-el7.parcel",
+            "https://archive.cloudera.com/p/spark3/3.0.7110.1/parcels/."
+          ],
+          [
+            "FLINK-1.10.0-csa1.2.2.0-cdh7.2.8.0-224-11539189-el7.parcel",
+            "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/11539189/csa/1.2.2.0/parcels/."
+          ],
+          [
+            "PROFILER_MANAGER-2.0.8.2.0.8.0-224-el7.parcel",
+            "https://archive.cloudera.com/p/DSS/2.0.8.0/redhat7/yum/tars/dataplane_profilers"
+          ],
+          [
+            "PROFILER_SCHEDULER-2.0.8.2.0.8.0-224-el7.parcel",
+            "https://archive.cloudera.com/p/DSS/2.0.8.0/redhat7/yum/tars/dataplane_profilers"
+          ],
+          [
+            "CFM-2.0.8.0-el7.parcel",
+            "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/10539177/cfm/2.x/redhat7/yum/tars/parcel"
+          ]
+        ],
+        "pre_warm_csd": [
+          "https://archive.cloudera.com/p/spark3/3.0.7110.1/csd/LIVY_FOR_SPARK3-0.6.0.3.0.7110.1-2.jar",
+          "https://archive.cloudera.com/p/spark3/3.0.7110.1/csd/SPARK3_ON_YARN-3.0.1.3.0.7110.1-2.jar",
+          "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/11539189/csa/1.2.2.0/csd/FLINK-1.10.0-csa1.2.2.0-cdh7.2.8.0-224-11539189.jar",
+          "https://archive.cloudera.com/p/DSS/2.0.8.0/redhat7/yum/tars/dataplane_profilers/PROFILER_MANAGER-2.0.8.2.0.8.0-224.jar",
+          "https://archive.cloudera.com/p/DSS/2.0.8.0/redhat7/yum/tars/dataplane_profilers/PROFILER_SCHEDULER-2.0.8.2.0.8.0-224.jar",
+          "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/10539177/cfm/2.x/redhat7/yum/tars/parcel/NIFI-1.11.4.2.0.8.0-36.jar",
+          "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/10539177/cfm/2.x/redhat7/yum/tars/parcel/NIFICA-1.11.4.2.0.8.0-36.jar",
+          "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/10539177/cfm/2.x/redhat7/yum/tars/parcel/NIFIREGISTRY-0.5.0.2.0.8.0-36.jar"
+        ]
+      }
+    ]
+  },
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "84ee4b82-5ad7-4bf2-9a0d-f873da208a10",
+          "c48a2f3c-f4f6-4973-8c06-b6e40b361506"
+        ],
+        "defaults": [
+          "84ee4b82-5ad7-4bf2-9a0d-f873da208a10",
+          "c48a2f3c-f4f6-4973-8c06-b6e40b361506"            
+        ],
+        "versions": [
+          "2.43.0-b132",
+          "2.44.0-b151"
+        ]
+      }
+    ]
+  }
+}
