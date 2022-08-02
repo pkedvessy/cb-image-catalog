@@ -1,0 +1,73 @@
+{
+    "images": {
+      "freeipa-images": [
+        {
+          "created": 1666089660,
+          "published": 1666091242,
+          "date": "2022-10-18",
+          "description": "cloud-cost-reducer-ignore RHEL8 FreeIPA test image",
+          "images": {
+            "aws": {
+              "af-south-1": "ami-062f6e3ac6290d93e",
+              "ap-east-1": "ami-0126f44c336bdd327",
+              "ap-northeast-1": "ami-0c7419c6493507f14",
+              "ap-northeast-2": "ami-078c5034297eb2e1c",
+              "ap-south-1": "ami-0ceb65f65a8c3c10c",
+              "ap-southeast-1": "ami-0c270c0735f24ead6",
+              "ap-southeast-2": "ami-085dc0fad4d7f2db6",
+              "ap-southeast-3": "ami-0a1f91b832adc94bd",
+              "ca-central-1": "ami-09b33a860c5ea4600",
+              "eu-central-1": "ami-0819c058eab1f3d33",
+              "eu-north-1": "ami-080703c4821ede630",
+              "eu-south-1": "ami-00b0aacbb02b65921",
+              "eu-west-1": "ami-0800c574469e2c9f1",
+              "eu-west-2": "ami-062f65444e56bba74",
+              "eu-west-3": "ami-06653f58fe9b9df62",
+              "me-south-1": "ami-0d7e46d8865b8a5cb",
+              "sa-east-1": "ami-00a8b3cd5ba14293a",
+              "us-east-1": "ami-01740687101272cff",
+              "us-east-2": "ami-07316af6385127043",
+              "us-west-1": "ami-00f8249a490494716",
+              "us-west-2": "ami-07096981790cc8f89"
+            }
+          },
+          "os": "redhat8",
+          "os_type": "redhat8",
+          "uuid": "b4c51e00-1986-45b3-971c-9cd41710df6d",
+          "package-versions": {
+            "blackbox-exporter": "0.19.0",
+            "cdp-logging-agent": "0.3.6",
+            "cdp-minifi-agent": "1.22.07",
+            "cdp-prometheus": "2.36.2",
+            "cdp-request-signer": "0.2.4",
+            "cdp-telemetry": "0.4.31",
+            "cloudbreak_images": "e0dd716",
+            "freeipa-health-agent": "0.1-20220326020204gitb2ffef7",
+            "freeipa-plugin": "1.0-20200319002729gitc964030",
+            "inverting-proxy-agent": "2.0.8-b2",
+            "inverting-proxy-agent_gbn": "29318549",
+            "node-exporter": "1.3.1",
+            "salt": "3001.8",
+            "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+          }
+        }
+      ]
+    },
+    "versions": {
+      "freeipa": [
+        {
+          "images": [
+            "b4c51e00-1986-45b3-971c-9cd41710df6d"
+          ],
+          "defaults": [],
+          "versions": [
+            "2.46.0-b31",
+            "2.46.0-b95",
+            "2.47.0-b134",
+            "2.48.0-b123",
+            "2.49.0-b21"
+          ]
+        }
+      ]
+    }
+  }

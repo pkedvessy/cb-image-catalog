@@ -4,54 +4,56 @@
     ],
     "cdh-images": [
       {
-        "created": 1654350164,
-        "published": 1654876873,
-        "date": "2022-06-04",
+        "created": 1660696704,
+        "published": 1660757895,
+        "date": "2022-08-17",
         "description": "Official Cloudbreak image",
         "images": {
           "aws": {
-            "af-south-1": "ami-08ca3e67b4fd9b965",
-            "ap-northeast-1": "ami-0fc8437bcd262d3a4",
-            "ap-northeast-2": "ami-0e4a5b3fd009d9ac8",
-            "ap-south-1": "ami-0f7e64cc5d4290c4a",
-            "ap-southeast-1": "ami-0bbdf92946509b937",
-            "ap-southeast-2": "ami-06d4401fa5255f5b1",
-            "ap-southeast-3": "ami-0074c3c2e7d986938",
-            "ca-central-1": "ami-05b56f650b451d8fc",
-            "eu-central-1": "ami-0ee85096dcdb43bf7",
-            "eu-north-1": "ami-0425267a8d59d3fc2",
-            "eu-south-1": "ami-0ab3fb8e623ad0bd4",
-            "eu-west-1": "ami-0fbcf2ff3227c6966",
-            "eu-west-2": "ami-08a792649e072caf1",
-            "eu-west-3": "ami-04fa46a62223e7042",
-            "me-south-1": "ami-0702e745d9afed197",
-            "sa-east-1": "ami-0d47ce37d853f8fc9",
-            "us-east-1": "ami-0714bf69edfcaeb44",
-            "us-east-2": "ami-057dadc285bd45ba2",
-            "us-west-1": "ami-0a57bf4d4a15a9879",
-            "us-west-2": "ami-0b80a1096e8c2fdf9"
+            "af-south-1": "ami-0d84ac2115f931f7e",
+            "ap-northeast-1": "ami-0d3ce082c038de395",
+            "ap-northeast-2": "ami-065cb9c872386f7ce",
+            "ap-south-1": "ami-0932b0ca95838dd34",
+            "ap-southeast-1": "ami-00c208fa955c228de",
+            "ap-southeast-2": "ami-07c340db3dbcf3408",
+            "ap-southeast-3": "ami-0b84ff4f20a975801",
+            "ca-central-1": "ami-010ff8dd089bfe7ba",
+            "eu-central-1": "ami-02b1a2822b1b5711b",
+            "eu-north-1": "ami-0e48ea72405678c26",
+            "eu-south-1": "ami-04872589c55a77080",
+            "eu-west-1": "ami-020eac0a4eddd7d15",
+            "eu-west-2": "ami-03ff55e26cb0e93fc",
+            "eu-west-3": "ami-01458e245365c3c44",
+            "me-south-1": "ami-01f30172f3b7300ba",
+            "sa-east-1": "ami-0b016afdff5b382b1",
+            "us-east-1": "ami-038caf6b20785b4f7",
+            "us-east-2": "ami-0ec2ca2b1228399b4",
+            "us-west-1": "ami-0552625890bf42c19",
+            "us-west-2": "ami-0f5c4ac9fd1e854b4",
+            "ap-east-1": "ami-02955a226aa9111c2"
           }
         },
         "os": "centos7",
         "os_type": "redhat7",
-        "uuid": "820364f1-48ec-49c5-94e4-69e352502832",
+        "uuid": "b0ca8763-c4ae-472b-8d01-8b95e69f8f0c",
         "package-versions": {
           "blackbox-exporter": "0.19.0",
-          "cdh-build-number": "26792553",
-          "cdp-logging-agent": "0.2.16",
-          "cdp-request-signer": "0.1.0",
-          "cdp-telemetry": "0.4.24",
-          "cdp-vmagent": "1.73.1",
-          "cfm": "2.2.5.1-1",
-          "cfm_gbn": "27301111",
-          "cloudbreak_images": "63fcf57",
+          "cdh-build-number": "29017320",
+          "cdp-logging-agent": "0.3.2",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.2",
+          "cdp-telemetry": "0.4.29",
+          "cfm": "2.2.5.2-1",
+          "cfm_gbn": "28265000",
+          "cloudbreak_images": "6a2edc1",
           "cm": "7.6.2",
-          "cm-build-number": "25995905",
-          "composite_gbn": "27681702",
-          "csa-dh": "1.6.1.0-15",
-          "csa-dh_gbn": "25900870",
-          "inverting-proxy-agent": "2.0.7-b1",
-          "inverting-proxy-agent_gbn": "19813655",
+          "cm-build-number": "28984110",
+          "composite_gbn": "29412829",
+          "csa-dh": "1.6.1.1-5",
+          "csa-dh_gbn": "28874538",
+          "inverting-proxy-agent": "2.0.8-b2",
+          "inverting-proxy-agent_gbn": "29318549",
           "metering_agent": "0.1",
           "node-exporter": "1.3.1",
           "salt": "3000.8",
@@ -61,67 +63,69 @@
         "stack-details": {
           "repo": {
             "stack": {
-              "redhat7": "https://archive.cloudera.com/p/cdp-public/7.2.15.1/parcels/",
+              "redhat7": "https://archive.cloudera.com/p/cdp-public/7.2.15.2/parcels/",
               "repoid": "CDH-7.2.15",
-              "repository-version": "7.2.15-1.cdh7.2.15.p1.26792553"
+              "repository-version": "7.2.15-1.cdh7.2.15.p2.29017320"
             },
             "util": null
           },
           "version": "7.2.15",
-          "build-number": "26792553"
+          "build-number": "29017320"
         },
         "repo": {
-          "redhat7": "https://archive.cloudera.com/p/cm-public/7.6.2-25995905/redhat7/yum/"
+          "redhat7": "https://archive.cloudera.com/p/cm-public/7.6.2-28984110/redhat7/yum/"
         },
         "version": "7.2.15",
-        "build-number": "25995905",
+        "build-number": "28984110",
         "pre_warm_parcels": [
           [
-            "FLINK-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870-el7.parcel",
-            "https://archive.cloudera.com/p/csa-dh/1.6.1.0/parcels/"
+            "FLINK-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538-el7.parcel",
+            "https://archive.cloudera.com/p/csa-dh/1.6.1.1/parcels/"
           ],
           [
-            "CFM-2.2.5.1-el7.parcel",
-            "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel"
+            "CFM-2.2.5.2-el7.parcel",
+            "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel"
           ]
         ],
         "pre_warm_csd": [
-          "https://archive.cloudera.com/p/csa-dh/1.6.1.0/csd/FLINK-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870.jar",
-          "https://archive.cloudera.com/p/csa-dh/1.6.1.0/csd/SQL_STREAM_BUILDER-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870.jar",
-          "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel/NIFI-1.16.0.2.2.5.1-1.jar",
-          "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel/NIFIREGISTRY-1.16.0.2.2.5.1-1.jar"
+          "https://archive.cloudera.com/p/csa-dh/1.6.1.1/csd/FLINK-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538.jar",
+          "https://archive.cloudera.com/p/csa-dh/1.6.1.1/csd/SQL_STREAM_BUILDER-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel/NIFI-1.16.0.2.2.5.2-1.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel/NIFIREGISTRY-1.16.0.2.2.5.2-1.jar"
         ]
       },
       {
-        "created": 1655451337,
-        "published": 1655451337,
-        "date": "2021-06-17",
+        "created": 1661378011,
+        "published": 1661378011,
+        "date": "2022-08-24",
         "description": "Official Cloudbreak image",
         "images": {
           "aws": {
-            "us-east-2": "ami-0386fc2ea493dd5b7"
+            "us-east-2": "ami-0a272900f739f01d5",
+            "eu-central-1": "ami-0a272900f739f01d5"
           }
         },
         "os": "centos7",
         "os_type": "redhat7",
-        "uuid": "30bbe751-cad8-4e0f-8ccb-24821c77e2f9",
+        "uuid": "25ae0992-241e-11ed-861d-0242ac120002",
         "package-versions": {
           "blackbox-exporter": "0.19.0",
-          "cdh-build-number": "26792553",
-          "cdp-logging-agent": "0.2.16",
-          "cdp-request-signer": "0.1.0",
-          "cdp-telemetry": "0.4.24",
-          "cdp-vmagent": "1.73.1",
-          "cfm": "2.2.5.1-1",
-          "cfm_gbn": "27301111",
-          "cloudbreak_images": "63fcf57",
+          "cdh-build-number": "29017320",
+          "cdp-logging-agent": "0.3.2",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.2",
+          "cdp-telemetry": "0.4.29",
+          "cfm": "2.2.5.2-1",
+          "cfm_gbn": "28265000",
+          "cloudbreak_images": "6a2edc1",
           "cm": "7.6.2",
-          "cm-build-number": "25995905",
-          "composite_gbn": "27681702",
-          "csa-dh": "1.6.1.0-15",
-          "csa-dh_gbn": "25900870",
-          "inverting-proxy-agent": "2.0.7-b1",
-          "inverting-proxy-agent_gbn": "19813655",
+          "cm-build-number": "28984110",
+          "composite_gbn": "29412829",
+          "csa-dh": "1.6.1.1-5",
+          "csa-dh_gbn": "28874538",
+          "inverting-proxy-agent": "2.0.8-b2",
+          "inverting-proxy-agent_gbn": "29318549",
           "metering_agent": "0.1",
           "node-exporter": "1.3.1",
           "salt": "3000.8",
@@ -131,50 +135,50 @@
         "stack-details": {
           "repo": {
             "stack": {
-              "redhat7": "https://archive.cloudera.com/p/cdp-public/7.2.15.1/parcels/",
+              "redhat7": "https://archive.cloudera.com/p/cdp-public/7.2.15.2/parcels/",
               "repoid": "CDH-7.2.15",
-              "repository-version": "7.2.15-1.cdh7.2.15.p1.26792553"
+              "repository-version": "7.2.15-1.cdh7.2.15.p2.29017320"
             },
             "util": null
           },
           "version": "7.2.15",
-          "build-number": "26792553"
+          "build-number": "29017320"
         },
         "repo": {
-          "redhat7": "https://archive.cloudera.com/p/cm-public/7.6.2-25995905/redhat7/yum/"
+          "redhat7": "https://archive.cloudera.com/p/cm-public/7.6.2-28984110/redhat7/yum/"
         },
         "version": "7.2.15",
-        "build-number": "25995905",
+        "build-number": "28984110",
         "pre_warm_parcels": [
           [
-            "FLINK-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870-el7.parcel",
-            "https://archive.cloudera.com/p/csa-dh/1.6.1.0/parcels/"
+            "FLINK-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538-el7.parcel",
+            "https://archive.cloudera.com/p/csa-dh/1.6.1.1/parcels/"
           ],
           [
-            "CFM-2.2.5.1-el7.parcel",
-            "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel"
+            "CFM-2.2.5.2-el7.parcel",
+            "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel"
           ]
         ],
         "pre_warm_csd": [
-          "https://archive.cloudera.com/p/csa-dh/1.6.1.0/csd/FLINK-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870.jar",
-          "https://archive.cloudera.com/p/csa-dh/1.6.1.0/csd/SQL_STREAM_BUILDER-1.14.0-csadh1.6.1.0-cdh7.2.15.0-92-25900870.jar",
-          "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel/NIFI-1.16.0.2.2.5.1-1.jar",
-          "https://archive.cloudera.com/p/cfm2/2.2.5.1/redhat7/yum/tars/parcel/NIFIREGISTRY-1.16.0.2.2.5.1-1.jar"
+          "https://archive.cloudera.com/p/csa-dh/1.6.1.1/csd/FLINK-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538.jar",
+          "https://archive.cloudera.com/p/csa-dh/1.6.1.1/csd/SQL_STREAM_BUILDER-1.14.0-csadh1.6.1.1-cdh7.2.15.0-92-28874538.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel/NIFI-1.16.0.2.2.5.2-1.jar",
+          "https://archive.cloudera.com/p/cfm2/2.2.5.2/redhat7/yum/tars/parcel/NIFIREGISTRY-1.16.0.2.2.5.2-1.jar"
         ]
       }
-    ]
+	  ]
   },
   "versions": {
     "cloudbreak": [
       {
         "images": [
-          "30bbe751-cad8-4e0f-8ccb-24821c77e2f9"
+          "25ae0992-241e-11ed-861d-0242ac120002"
         ],
         "defaults": [
-          "30bbe751-cad8-4e0f-8ccb-24821c77e2f9"            
+          "25ae0992-241e-11ed-861d-0242ac120002"            
         ],
         "versions": [
-          "2.44.0-b151"
+          "2.60.0-b83"
         ]
       }
     ]
